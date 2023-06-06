@@ -1,0 +1,21 @@
+Bài 7. Chương trình quản lý Sinh viên
+Xây dựng lớp SinhVien
+Các thành phần dữ liệu: 
+Mã sinh viên, Họ tên, Năm sinh, Điểm lập trình, Điểm CSDL , Điểm TB (trong đó: Điểm TB=Điểm Lập trình + Điểm CSDL)/2
+Các hàm tạo
+Hàm tạo không tham số
+Hàm tạo có 5 tham số (Họ tên, năm sinh, quê quán, Điểm lập trình, Điểm CSDL)
+Các phương thức
+Nhập thông tin sinh viên
+In thông tin sinh viên ra màn hình
+
+Xây dựng lớp DanhSach
+Thuộc tính
+     private int n; //Số lượng sinh viên
+     private SinhVien[ ]  DS; //Mảng chứa danh sách Sinh viên
+}
+Các phương thức
+Nhập danh sách sinh viên
+In thông tin các sinh viên có trong danh sách
+Liệt kê những sinh viên có điểm TB>8.0
+Sắp xếp danh sách theo Mã sinh viên
